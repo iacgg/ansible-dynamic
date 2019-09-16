@@ -1,0 +1,6 @@
+---
+- hosts: local
+  connection: local
+  roles:
+    - role: role-test1
+    - role: role-test2
